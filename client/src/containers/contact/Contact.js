@@ -2,7 +2,9 @@ import React from 'react';
 
 const Contact = () => {
     return (
-        <h4 className="text-center">Contact US</h4>
+        <div className="container" style={{minHeight : '500px'}}>
+            <h3 className="text-center">Contact US</h3>
+        </div>
     )
 }
 
