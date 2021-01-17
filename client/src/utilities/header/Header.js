@@ -1,5 +1,6 @@
 import React,{useState} from 'react';
 import {NavLink} from 'react-router-dom';
+
 const Header = () => {
     const[isNavbarCollapsed, setIsNavbarCollapsed] = useState(true);
     const handleNavbarCollapse = () => {
@@ -19,6 +20,7 @@ const Header = () => {
             value : '/contact'
         }
     ]
+    
     return (
         <nav className="navbar navbar-expand-sm bg-dark navbar-dark">
             <NavLink to="/" className="navbar-brand">MERN APP</NavLink>
